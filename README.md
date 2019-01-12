@@ -16,6 +16,7 @@ TaskB is the object detector used for producing the gif above. For more informat
 
 Requirements:
 numpy, openCV, pydarknet
+
 usage for task b:
 
 python multipleInstancesDetection.py -m models/ -s scenes/
