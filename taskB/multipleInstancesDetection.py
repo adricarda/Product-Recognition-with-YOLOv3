@@ -7,11 +7,6 @@ import sys
 sys.path.insert(0,'..')
 from detector.matcher import Matcher, cropped_from_coordinates
 
-
-
-def evaluate():
-    print('evaluating...')
-
 def check_arg(args=None):
     parser = argparse.ArgumentParser(description='Parser')
     parser.add_argument('-m', '--models', help='models directory', required=True)
