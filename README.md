@@ -8,7 +8,7 @@ The simple solution proposed here combines both state of the art detectors based
 The network used in this project is YOLOv3, which is available at https://github.com/AlexeyAB/darknet. YOLO has been used for finding the bounding boxes of the product in shelves. Each region is the cropped and classified using RootSIFT, an improved versione of SIFT.
 
 The mAP computed on a test set of 70 labeled images of store shelves is 65%.
-
+The gif shows on the left the current scene and on the right the cropped object from scene with the corresponding model prediction.
 ![](demo.gif)
 
 TaskA is a simple object detector implemented with only SIFT.
