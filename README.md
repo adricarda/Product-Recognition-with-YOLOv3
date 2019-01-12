@@ -10,3 +10,12 @@ The network used in this project is YOLOv3, which is available at https://github
 The mAP computed on a test set of 70 labeled images of store shelves is 65%.
 
 ![](demo.gif)
+
+TaskA is a simple object detector implemented with only SIFT.
+TaskB is the object detector used for producing the gif above. For more information please read the report.
+
+Requirements:
+numpy, openCV, pydarknet
+usage for task b:
+
+python multipleInstancesDetection.py -m models/ -s scenes/
