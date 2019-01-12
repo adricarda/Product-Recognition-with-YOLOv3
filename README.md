@@ -15,7 +15,7 @@ TaskA is a simple object detector implemented with only SIFT.
 TaskB is the object detector used for producing the gif above. For more information please read the report.
 
 Requirements:
-numpy, openCV, pydarknet
+numpy, openCV, [pydarknet](https://github.com/madhawav/YOLO3-4-Py)
 
 usage for task b:
 
